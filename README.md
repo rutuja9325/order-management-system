@@ -67,6 +67,29 @@ POST /api/orders
 GET /api/orders/{id}  
 GET /api/orders
 
+## API Request & Response Example
+
+### Create Customer
+
+POST /api/customers
+
+Request Body
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "9876543210"
+}
+
+Response
+
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "9876543210"
+}
+
 ## How to Run the Project
 
 1. Clone the repository
