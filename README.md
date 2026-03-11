@@ -38,6 +38,18 @@ Used to transfer data between layers.
 Entity Layer  
 Represents database tables.
 
+## Project Structure
+
+src/main/java/com/ecommerce/oms
+
+- controller – REST API controllers
+- service – Business logic
+- repository – Database operations
+- entity – JPA entities
+- dto – Data Transfer Objects
+- exception – Global exception handling
+- config – Configuration classes
+
 ## API Endpoints
 
 ### Customer APIs
